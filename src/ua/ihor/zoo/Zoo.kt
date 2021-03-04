@@ -19,7 +19,7 @@ class Zoo(private val animals: Collection<Animal>, private val view: View) {
 
         breaks
             .forEach {
-                it.first.brakeFriendship(it.second)
+                it.first.breakFriendship(it.second)
                 view.onFriendshipBreak(it.first, it.second)
             }
 

@@ -8,7 +8,7 @@ open class Animal(val name: String, val favouriteFood: String) {
         animal.friends.add(this)
     }
 
-    fun brakeFriendship(animal: Animal) {
+    fun breakFriendship(animal: Animal) {
         friends.remove(animal)
         animal.friends.remove(this)
     }
